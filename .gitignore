@@ -1,2 +1,5 @@
 # Ignore all .env files
 *.env
+
+# Add specific .env files to not ignore
+!/docker-compose/withPostgresAndWorker/.example.env
